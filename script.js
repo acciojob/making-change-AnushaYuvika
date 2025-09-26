@@ -11,7 +11,7 @@ const makeChange = (c) => {
   const n = Math.floor(rem / 5);
   rem %= 5;
 
-  const p = rem; // pennies left
+  const p = rem; 
 
   return { q, d, n, p };
 };
